@@ -1,4 +1,32 @@
+//Creating a normalfunction
+const square = function(square) {
+    return (square(5));
+};
 
+//Arrow function of the normal function
+const squares = number => number * number;
+console.log(square(5));
+
+// Second Normal function
+let x = 5;
+let y = 8;
+const addNumber = function(numbers) {
+    return x + y;
+};
+
+//Arrow fuction 
+let x1 = 5;
+let y1 = 8;
+const addNumbers = numbers => x1 + y1;
+console.log(x1 + y1);
+
+//Greet function
+const greet = function(greet) {
+    return greet;
+}
+//Arrow function
+const greets = greet => "Good morning!";
+console.log(greet);
 
 //Creating a promise
 let p = new Promise((resolve,reject) => {
